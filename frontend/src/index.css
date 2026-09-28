@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Existing tailwind imports */
+
+@media print {
+  /* Hide the sidebar, topnav, buttons, etc. */
+  body * {
+    visibility: hidden;
+  }
+  
+  /* Make ONLY the paper preview visible and take full page */
+  #printable-paper, #printable-paper * {
+    visibility: visible;
+  }
+  
+  #printable-paper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+  }
+
+  /* Force page breaks between multiple sets */
+  .set-page-break {
+    page-break-after: always;
+  }
+}
