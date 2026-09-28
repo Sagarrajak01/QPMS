@@ -4,6 +4,13 @@ OPMS is full-stack application designed for educational institutions to streamli
 
 The system allows administrators to manage faculty and subjects, while enabling faculty members to build question banks and automatically generate randomized question papers with multiple sets based on a custom blueprint.
 
+## View
+
+<p align="center">
+  <img src="./Asset/Overview.png" width="45%">
+  <img src="./Asset/paper.png" width="45%">
+</p>
+
 ## Key Features
 
 * **Role-Based Access Control:** Distinct portals for **Admin** and **Faculty**.
